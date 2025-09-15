@@ -35,4 +35,18 @@ B3: viết code
 * git add .
 * git commit -m "your\_mesage"
 * git remote add origin https://....(link đến repo github)
-* git push origin master
+* git push origin master (nếu lỗi thì git push -u origin master)
+
+
+
+**Tạo 1 nhánh mới để phát triển code**
+
+B1: git checkout branch\_name : lúc này sẽ tạo ra 1 branch mới và đang ở vị trí của branch mới
+
+B2: Viết code, git add . , git commit -m "your\_message", git push origin branch\_name : Như vậy là đã đẩy được code lên branch mới
+
+* Muốn đổi sang nhánh main thì git checkout main
+* Muốn gộp branch vào main thì vào github, nhấn compare \& pullrequest, chọn nhánh muốn gộp vào main, nhấn create pullrequest, nhấn merge pullrequest, nhấn confirm merge
+
+
+
