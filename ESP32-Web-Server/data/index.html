@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>ESP32 Web Server (SPIFFS)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/index.css" rel="stylesheet">
+</head>
+<body>
+  <h1>ESP32 Web Server</h1>
+  <p>Control LED State (GPIO16 & GPIO17)</p>
+
+  <div class="card">
+    <h3>GPIO16</h3>
+    <p><a class="btn on"  href="/16/on">ON</a></p>
+    <p><a class="btn off" href="/16/off">OFF</a></p>
+  </div>
+
+  <div class="card">
+    <h3>GPIO17</h3>
+    <p><a class="btn on"  href="/17/on">ON</a></p>
+    <p><a class="btn off" href="/17/off">OFF</a></p>
+  </div>
+
+  <p class="note">D2 (GPIO2) sẽ <b>ON</b> khi <b>cả GPIO16 và GPIO17 đều ON</b>. Ngược lại D2 <b>OFF</b>.</p>
+</body>
+</html>

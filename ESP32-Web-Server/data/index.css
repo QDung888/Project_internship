@@ -1,0 +1,7 @@
+body { font-family: system-ui, Arial, sans-serif; text-align: center; margin: 24px auto; max-width: 460px; }
+h1 { margin-bottom: 8px; }
+.card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; margin: 12px 0; }
+.btn { display: inline-block; padding: 12px 28px; margin: 6px; font-size: 20px; color: #fff; text-decoration: none; border-radius: 8px; }
+.btn.on  { background: #4caf50; }
+.btn.off { background: #777; }
+.note { color: #444; margin-top: 12px; }
